@@ -1,0 +1,27 @@
+//algumas animações para Vcs usar no serve...
+
+CMD:deitar(playerid)
+{
+    ApplyAnimation(playerid, "BEACH", "blather", 4.0, 1, 0, 0, 0, 0);
+    return 1;
+}
+CMD:sentar(playerid)
+{
+    ApplyAnimation(playerid, "BEACH", "ParkSit_M_loop", 4.0, 1, 0, 0, 0, 0);
+    return 1;
+}
+CMD:fumar(playerid)
+{
+    ApplyAnimation(playerid, "SMOKING", "M_smklean_loop", 4.0, 1, 0, 0, 0, 0);
+    return 1;
+}
+CMD:abaixar(playerid)
+{
+    ApplyAnimation(playerid, "BEACH", "ParkSit_M_loop", 4.0, 1, 0, 0, 0, 0);
+    return 1;
+}
+CMD:cruzarbraco(playerid)
+{
+    ApplyAnimation(playerid, "COP_AMBIENT", "Coplook_loop", 4.0, 0, 1, 1, 1, -1);
+    return 1;
+}
